@@ -1,0 +1,14 @@
+
+
+.array-container {
+  position: absolute;
+  top: 10%;
+}
+
+.array-bar {
+  display: inline-block;
+  background-color: pink;
+  margin: 0 2px;
+  width: 7px;
+}
+
