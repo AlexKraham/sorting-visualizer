@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 
 const generateArray = ( props ) => {
     return (
-        <div>
-            <button onClick={() => props.handleGenerate()}>Click me</button>
+        <div className="generate-array">
+            <button onClick={() => props.handleGenerate()}>Generate New Array</button>
         </div>
     );
 }

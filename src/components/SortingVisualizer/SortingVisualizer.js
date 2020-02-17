@@ -32,11 +32,15 @@ class SortingVisualizer extends Component {
     render() {
         const {arr} = this.state;
         return (
+            
             <div className="array-container">
+                <GenerateArray handleGenerate={this.handleGenerate}/>
+                <div className="test">
                 {arr.map(bar => (
                     <ArrayBar bar={bar} />
                 ))}
-                <GenerateArray handleGenerate={this.handleGenerate}/>
+                </div>
+                
             </div>
         )
     }
